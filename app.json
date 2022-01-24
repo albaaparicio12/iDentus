@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "iDental",
+    "slug": "iDental",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "iDental"
+}

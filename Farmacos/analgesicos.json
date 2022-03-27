@@ -30,8 +30,8 @@
 				"adultos": ["400mg/6-8h/hasta 7 días","600mg/6-8h/hasta 7 días"],
 				"ninos": ["20-30mg/kg/día (repartidos en 3-4 tomas)"]
 			},
-			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
-				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"efectossecundarios": ["Reacciones de hipersensibilidad","Diarrea","Dispepsia","Gastritis erosiva y úlcera gastro-duodenal",
+				"Hepatotoxicidad","Disminución de la eficacia de los antihipertensivos","Insuficiencia renal"],
 			"embarazo": "Se recomienda evitar utilizarlo durante el primer y segundo trimestre del embarazo y contraindicado en el tercer trimestre del mismo (FDA: D)*. Compatible con la lactancia (FDA: B)*",
 			"presentacionescomerciales": [
 				{
@@ -55,8 +55,8 @@
 				"adultos": ["500mg/12h/ hasta 7 días"],
 				"ninos": []
 			},
-			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
-				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"efectossecundarios": ["Reacciones de hipersensibilidad","Diarrea","Dispepsia","Gastritis erosiva y úlcera gastro-duodenal",
+				"Hepatotoxicidad","Disminución de la eficacia de los antihipertensivos","Insuficiencia renal"],
 			"embarazo": "Contraindicado en el tercer trimestre del embarazo (FDA: C)* Según la Academia Americana de Pediatría  es compatible con la lactancia pero los  fabricantes no recomiendan su administración durante la lactancia",
 			"presentacionescomerciales": [
 				{
@@ -74,8 +74,8 @@
 				"adultos": ["12,5mg/6h/hasta 7 días","25mg/8h/ hasta 7 días"],
 				"ninos": []
 			},
-			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
-				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"efectossecundarios": ["Reacciones de hipersensibilidad","Diarrea","Dispepsia","Gastritis erosiva y úlcera gastro-duodenal",
+				"Hepatotoxicidad","Disminución de la eficacia de los antihipertensivos","Insuficiencia renal"],
 			"embarazo": "Contraindicado en el tercer trimestre del embarazo (FDA: C)* Según la Academia Americana de Pediatría  es compatible con la lactancia pero los  fabricantes no recomiendan su administración durante la lactancia",
 			"presentacionescomerciales": [
 				{
@@ -93,8 +93,8 @@
 				"adultos": ["50mg/8h/hasta 7 días"],
 				"ninos": ["No recomendado en niños"]
 			},
-			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
-				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"efectossecundarios": ["Reacciones de hipersensibilidad","Diarrea","Dispepsia","Gastritis erosiva y úlcera gastro-duodenal",
+				"Hepatotoxicidad","Disminución de la eficacia de los antihipertensivos","Insuficiencia renal"],
 			"embarazo": "Contraindicado durante el tercer trimestre de embarazo FDA:C*). No se recomienda durante la lactancia",
 			"presentacionescomerciales": [
 				{
@@ -112,7 +112,7 @@
 				"adultos": ["575mg/6-8h/hasta 7 días"],
 				"ninos": []
 			},
-			"efectossecundarios": ["Agranulocitosis","hipotensión","reacciones de hipersesibilidad"],
+			"efectossecundarios": ["Agranulocitosis","Hipotensión","Reacciones de hipersesibilidad"],
 			"embarazo": "Evitar su uso en el primero y segundo trimestre de embarazo. Está contraindicado en el tercer trimestre. Evitar lactancia durante el tratamiento (FDA:sin clasificar)*",
 			"presentacionescomerciales": [
 				{

@@ -1,63 +1,69 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, ScrollView,View } from 'react-native';
 import {Card, Text} from 'react-native-elements';
 
 class BodyData extends React.Component{
     render(){
         let objeto = this.props.data
             return(
-                <View>
+                <ScrollView>
                     <Card>
                         <Text style= {styles.title}>
                             {objeto.titulo}
                         </Text>
-                        <Text>
+                        <Text style={styles.subtitle}>
                             Posología:{"\n"}
+                            <Text style={styles.subsubtitle}>
                             -Adultos:{"\n"}
+                            </Text>
                             {objeto.posologia.adultos.map(function(adulto){
                                 return(
                                     <View>
-                                        <Text>
-                                            {adulto + "\n"}
+                                        <Text style={styles.text}>
+                                        {adulto + "\n"}
                                         </Text>
                                     </View>
                                     )
                             })}
+                            {"\n"}
+                            <Text style={styles.subsubtitle}>
+                            -Niños:{"\n"}
+                            </Text>
                             {objeto.posologia.ninos.map(function(nino){
                                 return(
                                     <View>
-                                        <Text>
-                                            {nino + "\n"}
+                                        <Text style={styles.text}>
+                                        {nino + "\n"}
                                         </Text>
                                     </View>
                                     )
                             })}
                         </Text>
-                        <Text>
+                        <Text style={styles.subtitle}>
                             Efectos Secundarios: {"\n"}
                             {objeto.efectossecundarios.map(function(efecto){
                                 return(
                                     <View>
-                                        <Text>
-                                            {efecto + "\n"}
+                                        <Text style={styles.text}>
+                                        {efecto + "\n"}
                                         </Text>
                                     </View>
                                     )
                             })}
-                            Embarazo y lactancia: {objeto.embarazo} {"\n"}
+                            {"\n"}Embarazo y lactancia: <Text style={styles.text}>{objeto.embarazo}</Text> {"\n"}
                         </Text>
-                        <Text>
+                        <Text style={styles.subtitle}>
                             Presentaciones comerciales: {"\n"}
                             {objeto.presentacionescomerciales.map(function(pres){
                                 return(
                                     <View>
-                                        <Text>
-                                            {pres.titulo}{"\n"}
+                                        <Text style={styles.subsubtitle}>
+                                        {pres.titulo}{"\n"}
                                             {pres.pres.map(function(presConcreto){
                                                 return(
                                                     <View>
-                                                        <Text>
-                                                            {presConcreto}{"\n"}
+                                                        <Text style={styles.text}>
+                                                        {presConcreto}{"\n"}
                                                         </Text>
                                                     </View>
                                                     )
@@ -67,11 +73,11 @@ class BodyData extends React.Component{
                                     )
                             })}
 
-                            Notas: {"\n"}
-                            {objeto.nota}{"\n"}
+                        {"\n"}Notas: {"\n"}
+                        <Text style={styles.text}>{objeto.nota}</Text>{"\n"}
                         </Text>
                     </Card>
-                </View>
+                </ScrollView>
             )
     }
 }
@@ -85,10 +91,23 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     title: {
-      fontSize: 18,
+      fontSize: 23,
       textAlign: 'center',
       marginVertical: 20,
     },
+    subtitle: {
+        fontSize: 20,
+        marginLeft: 10,
+      },
+    subsubtitle: {
+        fontSize: 18,
+        marginLeft: 20,
+      },
+    text: {
+        fontSize: 16,
+        marginLeft: 25,
+        marginTop: 10
+      },
   });
 
   export default BodyData;

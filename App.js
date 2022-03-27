@@ -41,7 +41,7 @@ class App extends React.Component {
           />
           <Stack.Screen
             name="Anestesicos"
-            component={ListaFarmacos}
+            component={Otros}
           />
           <Stack.Screen
             name="Otros"

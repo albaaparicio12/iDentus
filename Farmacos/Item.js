@@ -4,10 +4,11 @@ import BodyData from './BodyData';
 
 class Item extends React.Component {
   render(){
-    let objeto = this.props.objeto
+    let data = this.props.route.params.data
+    console.log(this.props)
     return(
         <View>
-            <BodyData data={objeto}/>
+            <BodyData data={data}/>
         </View>
     )
 }

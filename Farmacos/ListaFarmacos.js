@@ -37,9 +37,12 @@ class ListaFarmacos extends React.Component {
             {
               cards.map(card => {
                 return(
-                  <Card key={card.id}>
-                    <Card.Title>{card.title}</Card.Title>
-                  </Card>
+                  
+                    <Button buttonStyle={{borderRadius: 10, marginLeft: 15, marginRight: 15, marginBottom: 15}} 
+                    title={card.title} onPress={() => this.props.navigation.navigate('Item', {data: card.objeto})}>
+
+                    </Button>
+                  
                 )
               })
             }

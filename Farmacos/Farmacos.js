@@ -13,7 +13,6 @@ class Farmacos extends React.Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Fármacos</Text>
         <View style={styles.botones}>
           <Button
             title="Antibióticos"
@@ -36,7 +35,7 @@ class Farmacos extends React.Component {
           <Button
             title="Anestésicos"
             onPress={() =>
-              this.props.navigation.navigate('Anestesicos', {data: require('./antibioticos.json')})
+              this.props.navigation.navigate('Anestesicos')
             }            
           />
           <Button

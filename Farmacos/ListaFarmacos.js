@@ -5,21 +5,34 @@ import { Card, ListItem, Button, Icon } from 'react-native-elements'
 import { ScrollView } from 'react-native-gesture-handler';
 import Item from './Item';
 
+
+
 class ListaFarmacos extends React.Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: false,
+      data: [this.props.route.params.data],
+      error: null,
+      searchValue: "",
+    };
+    this.arrayholder = [this.props.route.params.data];
+  }
 
-  state = {
-    search: '',
-  };
-
-  updateSearch = (search) => {
-    this.setState({ search });
+  searchFunction = (text) => {
+    const updatedData = this.arrayholder.filter((item) => {
+      const item_data = `${item.titulo.toUpperCase()})`;
+      const text_data = text.toUpperCase();
+      return item_data.indexOf(text_data) > -1;
+    });
+    this.setState({ data: updatedData, searchValue: text });
   };
 
   render(){
-    const { search } = this.state;
-    let data = this.props.route.params.data;
     const cards = []
-    let titulos = data.objetos.map(function(objeto,i){
+    console.log(this.state.data.data)
+    let titulos = this.state.data.objetos.map(function(objeto,i){
       cards.push({id: ""+i, title: objeto.titulo, objeto:objeto})
         return objeto.titulo
     })
@@ -28,9 +41,11 @@ class ListaFarmacos extends React.Component {
         <View>
           <SearchBar
           placeholder="Type Here..."
-          onChangeText={this.updateSearch}
-          value={search}
-          lightTheme={Boolean.True}
+          value={this.state.searchValue}
+          onChangeText={(text) => this.searchFunction(text)}
+          autoCorrect={false}
+          lightTheme
+          round
           />
           
           <ScrollView>

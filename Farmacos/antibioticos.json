@@ -1,0 +1,25 @@
+{
+	"objetos": [
+		{
+			"titulo": "AMOXICILINA", 
+			"posologia": 
+			{
+				"adultos": ["500mg/8h/7dias","750mg/8h/7días ","1g/8h/7días"],
+				"ninos": ["40mg/kg/día (repartidos en 3 tomas)"]
+			},
+			"efectossecundarios": ["Reacciones de hipersensibilidad", "diarrea", "nauseas", "candidiasis"],
+			"embarazo": "Compatible (FDA: B)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Amoxicilina “genérico” (500,750,1000mg)", "Clamoxyl (500,750,1000mg)"]
+				},
+				{
+					"titulo":"Pediátricos",
+					"pres": ["Amoxicilina “genérico” (suspensión) (125mg/5ml ó 250mg/5ml)"]
+				}
+			],
+			"nota": "*Profilaxis endocarditis bacteriana: En adultos 2000mg 1 hora antes del procedimiento odontológico"
+		}
+	]
+}

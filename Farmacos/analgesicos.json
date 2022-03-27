@@ -1,0 +1,145 @@
+{
+	"objetos": [
+		{
+			"titulo": "PARACETAMOL", 
+			"posologia": 
+			{
+				"adultos": ["500mg/6-8h/hasta 7 días","650mg/6-8h/hasta 7 días","1g/6-8h/hasta 7 días"],
+				"ninos": ["10-15mg/kg/día (repartidos en 3 tomas)"]
+			},
+			"efectossecundarios": ["Hepatotoxicidad (dosis dependiente)"],
+			"embarazo": "Compatible (FDA: B)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Paracetamol “genérico” (500,650,1000g) (distintos laboratorios Sandoz, Stada…)", "Termalgin (500,650,1000mg) ",
+					"Gelocatil (500,650,1000mg","Efferalgan (500,1000mg)","Dolocatil (650,1000mg)"]
+				},
+				{
+					"titulo":"Pediátricos",
+					"pres": ["Gelocatil Pediátrico (325mg)","Efferalgan (30mg/ml)","Dolostop Pediátrico (100mg/ml)","Dolocatil Pediátrico (100mg/ml)",
+					"Apiretal niños (250mg)","Apiretal (100mg/ml)"]
+				}
+			],
+			"nota": "El paracetamol puede asociarse a un opioide (tramadol) en dolor moderado a severo indicado para adultos y niños mayores de 12 años. (ver tramadol/paracetamol)"
+		},
+		{
+			"titulo": "IBUPROFENO", 
+			"posologia": 
+			{
+				"adultos": ["400mg/6-8h/hasta 7 días","600mg/6-8h/hasta 7 días"],
+				"ninos": ["20-30mg/kg/día (repartidos en 3-4 tomas)"]
+			},
+			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
+				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"embarazo": "Se recomienda evitar utilizarlo durante el primer y segundo trimestre del embarazo y contraindicado en el tercer trimestre del mismo (FDA: D)*. Compatible con la lactancia (FDA: B)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Ibuprofeno “genérico” (400, 600mg)", "Espidifen 8600mg)",
+					"Neobrugen (600mg)","Efferalgan (500,1000mg)","Algidrin (600mg)"]
+				},
+				{
+					"titulo":"Pediátricos",
+					"pres": ["Ibuprofeno “genérico” (suspensión) (20 ó 40mg/ml)","Dalsy (suspensión) (20 ó 40mg/ml)",
+						"Dalsy (200, 400mg)","Algidrin pediátrico (suspensión) (20 ó 40mg/ml)",
+					"Algidrin infantil (200mg)"]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "NAPROXENO", 
+			"posologia": 
+			{
+				"adultos": ["500mg/12h/ hasta 7 días"],
+				"ninos": []
+			},
+			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
+				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"embarazo": "Contraindicado en el tercer trimestre del embarazo (FDA: C)* Según la Academia Americana de Pediatría  es compatible con la lactancia pero los  fabricantes no recomiendan su administración durante la lactancia",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Naproxeno “genérico” (500mg)", "Antalgin (550mg)",
+					"Momen (200mg)"]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "DEKETOPROXENO", 
+			"posologia": 
+			{
+				"adultos": ["12,5mg/6h/hasta 7 días","25mg/8h/ hasta 7 días"],
+				"ninos": []
+			},
+			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
+				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"embarazo": "Contraindicado en el tercer trimestre del embarazo (FDA: C)* Según la Academia Americana de Pediatría  es compatible con la lactancia pero los  fabricantes no recomiendan su administración durante la lactancia",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Dexketoprofeno “genérico” (12,5 , 25mg)", "Enantyum (12,5 , 25mg)",
+					"Endolex  (25mg)","Ketesse (25mg)","Quiralam (25mg)","Adolquir (25mg)"]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "DICLOFENACO", 
+			"posologia": 
+			{
+				"adultos": ["50mg/8h/hasta 7 días"],
+				"ninos": ["No recomendado en niños"]
+			},
+			"efectossecundarios": ["Reacciones de hipersensibilidad","diarrea","dispepsia","gastritis erosiva y úlcera gastro-duodenal",
+				"hepatotoxicidad","disminución de la eficacia de los antihipertensivos","insuficiencia renal"],
+			"embarazo": "Contraindicado durante el tercer trimestre de embarazo FDA:C*). No se recomienda durante la lactancia",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Diclofenaco “genérico” (50mg)", "Voltaren (50mg)",
+					"Dolotren (50mg)"]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "METAMIZOL", 
+			"posologia": 
+			{
+				"adultos": ["575mg/6-8h/hasta 7 días"],
+				"ninos": []
+			},
+			"efectossecundarios": ["Agranulocitosis","hipotensión","reacciones de hipersesibilidad"],
+			"embarazo": "Evitar su uso en el primero y segundo trimestre de embarazo. Está contraindicado en el tercer trimestre. Evitar lactancia durante el tratamiento (FDA:sin clasificar)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"",
+					"pres": ["Metamizol “genérico” (575mg)","Nolotil (575mg)"]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "TRAMADOL/PARACETAMOL", 
+			"posologia": 
+			{
+				"adultos": ["1 comprimido(75/650mg) cada 6-8 h (max. 4 comprimidos al día) ","2 comprimidos (37,5/325mg) cada 6-8 h (max. 8 comprimidos al día)"],
+				"ninos": ["No recomendado en menores de 12 años"]
+			},
+			"efectossecundarios": ["Hepatotoxicidad (dosis dependiente)","depresión de SNC","vómitos","estreñimiento",
+				"retención de orina","sequedad de boca"],
+			"embarazo": "Evitar o sopesar riesgo-beneficio (FDA: C)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Tramadol/paracetamol “genérico” (37,5/325 ó 75/650mg)", "Zaldiar (37,5/325mg)",
+					"Capdol (37,5/325mg)","Captor (75/650mg)","Diliban (75/650mg)","Pazital(37,5/325mg)","Pontalsic (37,5/325mg)"]
+				}
+			],
+			"nota": ""
+		}
+	]
+}

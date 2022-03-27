@@ -1,0 +1,61 @@
+{
+	"objetos": [
+		{
+			"titulo": "PREDNISONA", 
+			"posologia": 
+			{
+				"adultos": ["0,2-1mg/kg/día"],
+				"ninos": []
+			},
+			"efectossecundarios": ["Sd. De Cushing", "hipertensión", "diabetes", "trastornos psíquicos",
+			"insomnio","pancreatitis","osteopenia","osteonecrosis","linfopenia e imunosupresión","retrasos en la cicatrización",
+		"alteraciones hidroelectrolíticas"],
+			"embarazo": "No se recomienda durante el embarazo (FDA: C)*. Compatible con la lactancia",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Prednisona “genérico” (2,5, 5, 10, 30mg) ", "Dacortin (2,5, 5, 30mg) "]
+				}
+			],
+			"nota": "Este medicamento requiere disminución progresiva de la dosis para evitar la insuficiencia suprarrenal"
+		},
+		{
+			"titulo": "METILPREDNISOLONA", 
+			"posologia": 
+			{
+				"adultos": ["2-60mg/día"],
+				"ninos": []
+			},
+			"efectossecundarios": ["Sd. De Cushing", "hipertensión", "diabetes", "trastornos psíquicos",
+			"insomnio","pancreatitis","osteopenia","osteonecrosis","linfopenia e imunosupresión","retrasos en la cicatrización",
+		"alteraciones hidroelectrolíticas"],
+			"embarazo": "No recomienda utilizarlo durante el embarazo y la lactancia (FDA: D)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Urbason (4, 16, 40mg)"]
+				}
+			],
+			"nota": "Este medicamento requiere disminución progresiva de la dosis para evitar la insuficiencia suprarrenal"
+		},
+		{
+			"titulo": "DEXAMETASONA", 
+			"posologia": 
+			{
+				"adultos": ["4-8mg/día"],
+				"ninos": []
+			},
+			"efectossecundarios": ["Sd. De Cushing", "hipertensión", "diabetes", "trastornos psíquicos",
+			"insomnio","pancreatitis","osteopenia","osteonecrosis","linfopenia e imunosupresión","retrasos en la cicatrización",
+		"alteraciones hidroelectrolíticas"],
+			"embarazo": "No recomienda utilizarlo durante el embarazo y la lactancia (FDA: D)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Dexametasona “genérico” (4, 8 mg)","Fortecortin (4, 8 mg)"]
+				}
+			],
+			"nota": ""
+		}
+	]
+}

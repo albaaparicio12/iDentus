@@ -1,14 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text,Button, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import BodyData from './BodyData';
 
-class Antibioticos extends React.Component {
+class Item extends React.Component {
   render(){
-    return (
-      <View style={styles.container}>
-        <Text style={styles.title}>Antibióticos</Text>   
-      </View>
-    );
-  }
+    let objeto = this.props.objeto
+    return(
+        <View>
+            <BodyData data={objeto}/>
+        </View>
+    )
+}
 }
 
 const styles = StyleSheet.create({
@@ -25,4 +27,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Antibioticos;
+export default Item;

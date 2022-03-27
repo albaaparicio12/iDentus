@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text,Button, View } from 'react-native';
+import { StyleSheet,Button, View } from 'react-native';
 
 class MainScreen extends React.Component {
   render(){
@@ -8,7 +8,6 @@ class MainScreen extends React.Component {
         <View style={styles.botones}>
           <Button
             title="Fármacos"
-            accessibilityLabel="Learn more about this purple button"
             onPress={() =>
               this.props.navigation.navigate('Farmacos')
             }

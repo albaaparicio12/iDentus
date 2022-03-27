@@ -4,11 +4,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './HomeScreen';
 import MainScreen from './MainScreen';
 import Farmacos from './Farmacos/Farmacos.js';
-import Anestesicos from './Farmacos/Anestesicos.js';
-import Antibioticos from './Farmacos/Antibioticos.js';
-import Analgesicos from './Farmacos/Analgesicos.js';
-import Corticoides from './Farmacos/Corticoides.js';
 import Otros from './Farmacos/Otros.js';
+import Item from './Farmacos/Item.js';
+import ListaFarmacos from './Farmacos/ListaFarmacos';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,23 +29,27 @@ class App extends React.Component {
           />
           <Stack.Screen
             name="Antibioticos"
-            component={Antibioticos}
+            component={ListaFarmacos}
           />
           <Stack.Screen
             name="Analgesicos"
-            component={Analgesicos}
+            component={ListaFarmacos}
           />
           <Stack.Screen
             name="Corticoides"
-            component={Corticoides}
+            component={ListaFarmacos}
           />
           <Stack.Screen
             name="Anestesicos"
-            component={Anestesicos}
+            component={ListaFarmacos}
           />
           <Stack.Screen
             name="Otros"
             component={Otros}
+          />
+          <Stack.Screen
+            name="Item"
+            component={Item}
           />
         </Stack.Navigator>
       </NavigationContainer>

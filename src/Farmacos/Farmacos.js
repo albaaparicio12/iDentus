@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text,Button, View } from 'react-native';
+import { StyleSheet,Button, View } from 'react-native';
 
 
 class Farmacos extends React.Component {

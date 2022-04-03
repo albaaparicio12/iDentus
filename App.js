@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from './HomeScreen';
-import MainScreen from './MainScreen';
-import Farmacos from './Farmacos/Farmacos.js';
-import Otros from './Farmacos/Otros.js';
-import Item from './Farmacos/Item.js';
-import ListaFarmacos from './Farmacos/ListaFarmacos';
+import HomeScreen from './src/HomeScreen';
+import MainScreen from './src/MainScreen';
+import Farmacos from './src/Farmacos/Farmacos.js';
+import Otros from './src/Farmacos/Otros.js';
+import Item from './src/Item.js';
+import ListaItems from './src/ListaItems';
 
 const Stack = createNativeStackNavigator();
 
@@ -28,16 +28,20 @@ class App extends React.Component {
             component={Farmacos}
           />
           <Stack.Screen
+            name="Urgencias"
+            component={ListaItems}
+          />
+          <Stack.Screen
             name="Antibioticos"
-            component={ListaFarmacos}
+            component={ListaItems}
           />
           <Stack.Screen
             name="Analgesicos"
-            component={ListaFarmacos}
+            component={ListaItems}
           />
           <Stack.Screen
             name="Corticoides"
-            component={ListaFarmacos}
+            component={ListaItems}
           />
           <Stack.Screen
             name="Anestesicos"

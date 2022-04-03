@@ -1,27 +1,26 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { SearchBar} from 'react-native-elements';
-import { Card, ListItem, Button, Icon } from 'react-native-elements'
+import { Button } from 'react-native-elements'
 import { ScrollView } from 'react-native-gesture-handler';
-import Item from './Item';
 
 
 
-class ListaFarmacos extends React.Component {
+class ListaItems extends React.Component {
   
   constructor(props) {
     super(props);
     this.state = {
       loading: false,
-      data: [this.props.route.params.data],
+      data: [this.props.route.params.data.objetos],
       error: null,
       searchValue: "",
     };
-    this.arrayholder = [this.props.route.params.data];
+    this.arrayholder = [this.props.route.params.data.objetos];
   }
 
   searchFunction = (text) => {
-    const updatedData = this.arrayholder.filter((item) => {
+    const updatedData = this.arrayholder[0].filter((item) => {
       const item_data = `${item.titulo.toUpperCase()})`;
       const text_data = text.toUpperCase();
       return item_data.indexOf(text_data) > -1;
@@ -31,8 +30,23 @@ class ListaFarmacos extends React.Component {
 
   render(){
     const cards = []
-    console.log(this.state.data.data)
-    let titulos = this.state.data.objetos.map(function(objeto,i){
+    let objetos = []
+    if(this.state.data.length < 2){
+      if(this.state.data.length == 0)
+        objetos = []
+      else if(this.state.data[0].length > 1)
+        objetos = this.state.data[0] 
+      else
+        objetos.push(this.state.data[0])
+      }
+    else
+      objetos = this.state.data
+    
+    if(objetos == undefined)
+      objetos = []
+      
+    
+    let titulos = objetos.map(function(objeto,i){
       cards.push({id: ""+i, title: objeto.titulo, objeto:objeto})
         return objeto.titulo
     })
@@ -40,7 +54,7 @@ class ListaFarmacos extends React.Component {
     return (
         <View>
           <SearchBar
-          placeholder="Type Here..."
+          placeholder="Escribe aquí..."
           value={this.state.searchValue}
           onChangeText={(text) => this.searchFunction(text)}
           autoCorrect={false}
@@ -55,7 +69,6 @@ class ListaFarmacos extends React.Component {
                   
                     <Button buttonStyle={{borderRadius: 10, marginLeft: 15, marginRight: 15, marginBottom: 15}} 
                     title={card.title} onPress={() => this.props.navigation.navigate('Item', {data: card.objeto})}>
-
                     </Button>
                   
                 )
@@ -82,4 +95,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ListaFarmacos;
+export default ListaItems;

@@ -15,7 +15,7 @@ class MainScreen extends React.Component {
           <Button
             title="Urgencias"
             onPress={() =>
-              this.props.navigation.navigate('Menu')
+              this.props.navigation.navigate('Urgencias', {data: require('./Urgencias/urgencias.json')})
             }
           />
           <Button

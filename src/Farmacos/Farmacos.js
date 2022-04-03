@@ -17,19 +17,19 @@ class Farmacos extends React.Component {
           <Button
             title="Antibióticos"
             onPress={() =>
-              this.props.navigation.navigate('Antibioticos', {data: require('./antibioticos.json')})
+              this.props.navigation.navigate('Antibioticos', {data: require('./antibioticos.json'), clase: "farmacos"})
             }
           />
           <Button
             title="Analgésicos"
             onPress={() =>
-              this.props.navigation.navigate('Analgesicos', {data: require('./analgesicos.json')})
+              this.props.navigation.navigate('Analgesicos', {data: require('./analgesicos.json'), clase: "farmacos"})
             }
           />
           <Button
             title="Corticoides"
             onPress={() =>
-              this.props.navigation.navigate('Corticoides', {data: require('./corticoides.json')})
+              this.props.navigation.navigate('Corticoides', {data: require('./corticoides.json'), clase: "farmacos"})
             }            
           />  
           <Button

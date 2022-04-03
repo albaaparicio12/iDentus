@@ -17,6 +17,7 @@ class ListaItems extends React.Component {
       searchValue: "",
     };
     this.arrayholder = [this.props.route.params.data.objetos];
+    this.clase =  [this.props.route.params.clase]
   }
 
   searchFunction = (text) => {
@@ -68,7 +69,7 @@ class ListaItems extends React.Component {
                 return(
                   
                     <Button buttonStyle={{borderRadius: 10, marginLeft: 15, marginRight: 15, marginBottom: 15}} 
-                    title={card.title} onPress={() => this.props.navigation.navigate('Item', {data: card.objeto})}>
+                    title={card.title} onPress={() => this.props.navigation.navigate('Item', {data: card.objeto, clase: this.clase})}>
                     </Button>
                   
                 )

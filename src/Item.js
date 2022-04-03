@@ -1,14 +1,15 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import BodyData from './BodyData';
+import BodyData from './Farmacos/BodyData';
+import BodyUrgenciasData from './Urgencias/BodyUrgenciasData';
 
 class Item extends React.Component {
   render(){
     let data = this.props.route.params.data
-    console.log(this.props.route.params)
+    let clase = this.props.route.params.clase
     return(
         <View>
-            <BodyData data={data}/>
+          {(clase == 'farmacos')? <BodyData data={data}/> : <BodyUrgenciasData data={data}/> }
         </View>
     )
 }

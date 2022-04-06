@@ -2,8 +2,6 @@ import React from 'react';
 import { StyleSheet, View, Image } from 'react-native';
 import ReactNativeZoomableView from "@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView"
 
-
-
 export default function Espectro() {
   
   

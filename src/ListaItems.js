@@ -32,26 +32,28 @@ class ListaItems extends React.Component {
   render(){
     const cards = []
     let objetos = []
-    if(this.state.data.length < 2){
+    if(this.state.data.length < 2){      
       if(this.state.data.length == 0)
         objetos = []
       else if(this.state.data[0].length > 1)
         objetos = this.state.data[0] 
+      else if(this.state.searchValue.length == 0)
+        objetos = this.arrayholder[0]
       else
-        objetos.push(this.state.data[0])
+      objetos = [this.state.data[0]]
       }
     else
       objetos = this.state.data
     
     if(objetos == undefined)
       objetos = []
-      
     
     let titulos = objetos.map(function(objeto,i){
       cards.push({id: ""+i, title: objeto.titulo, objeto:objeto})
+      
         return objeto.titulo
     })
-
+    
     return (
         <View>
           <SearchBar

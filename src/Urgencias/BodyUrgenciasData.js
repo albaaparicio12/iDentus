@@ -37,7 +37,6 @@ function writePrePostContent(objeto){
     }
 }
 function writeContent(objeto){
-    console.log(objeto)
     if(typeof objeto === 'string')
         return(<Text>{objeto}{"\n"}</Text>)
     else{

@@ -5,7 +5,7 @@ import ReactNativeZoomableView from "@dudigital/react-native-zoomable-view/src/R
 class FDA extends React.Component {
   render(){
     return (
-      <View style={styles.container}>
+      <View style={styles.container}>        
         <ReactNativeZoomableView
           maxZoom={3}
           minZoom={0.5}
@@ -18,6 +18,7 @@ class FDA extends React.Component {
             source={require('./FDA.png')}
           />
         </ReactNativeZoomableView>
+        
       </View>
     );
   }

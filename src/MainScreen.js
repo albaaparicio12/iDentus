@@ -4,6 +4,7 @@ import { StyleSheet,Button, View } from 'react-native';
 class MainScreen extends React.Component {
   render(){
     return (
+      //TODO ICONOS
       <View style={styles.container}>
         <View style={styles.botones}>
           <Button

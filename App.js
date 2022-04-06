@@ -7,6 +7,8 @@ import Farmacos from './src/Farmacos/Farmacos.js';
 import Otros from './src/Farmacos/Otros.js';
 import Item from './src/Item.js';
 import ListaItems from './src/ListaItems';
+import Espectro from './src/Farmacos/Espectro';
+import FDA from './src/Farmacos/FDA';
 
 const Stack = createNativeStackNavigator();
 
@@ -46,6 +48,14 @@ class App extends React.Component {
           <Stack.Screen
             name="Anestesicos"
             component={Otros}
+          />
+          <Stack.Screen
+            name="Espectro"
+            component={Espectro}
+          />
+          <Stack.Screen
+            name="FDA"
+            component={FDA}
           />
           <Stack.Screen
             name="Otros"

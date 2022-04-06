@@ -34,12 +34,26 @@ class Farmacos extends React.Component {
           />  
           <Button
             title="Anestésicos"
+            disabled={true}
             onPress={() =>
               this.props.navigation.navigate('Anestesicos')
             }            
           />
           <Button
+            title="Espectro antibióticos"
+            onPress={() =>
+              this.props.navigation.navigate('Espectro')
+            }            
+          />
+          <Button
+            title="Categorías farmacológicas (FDA)"
+            onPress={() =>
+              this.props.navigation.navigate('FDA')
+            }            
+          />
+          <Button
             title="Otros"
+            disabled={true}
             onPress={() =>
               this.props.navigation.navigate('Otros')
             }            
@@ -67,7 +81,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     backgroundColor: "#fff",
     padding: 100,
-    margin: 20,
+    margin: 15,
   },
 });
 

@@ -20,6 +20,103 @@
 				}
 			],
 			"nota": "*Profilaxis endocarditis bacteriana: En adultos 2000mg 1 hora antes del procedimiento odontológico"
+		},
+		{
+			"titulo": "AMOXICILINA/ÁCIDO CLAVULÁNICO", 
+			"posologia": 
+			{
+				"adultos": ["500/125mg/8h/7dias","875/125mg/8h/7días","1000/62,5mg/12h/7días"],
+				"ninos": ["40mg/kg/día “formulación 100/12,5mg” (repartidos en 3 tomas)"]
+			},
+			"efectossecundarios": ["Reacciones de hipersensibilidad", "hepatotoxicidad", "diarrea", "náuseas", "candidiasis"],
+			"embarazo": "Compatible (FDA: B)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Amoxicilina/clavulánico “genérico” (500/125mg ó 875/125mg)", "Augmentine (500/125mg, 875/125mg)", "Medoclav EFG (875/125mg)"]
+				},
+				{
+					"titulo":"Pediátricos",
+					"pres": ["Amoxicilina/clavulánico “genérico” (suspensión) (100/12,5mg/ml)", "Amoxicilina/clavulánico “genérico” (250/62,5mg)", "Augmentine (suspensión)(100/12,5mg/ml)"]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "CLINDAMICINA", 
+			"posologia": 
+			{
+				"adultos": ["300mg/6h/7-10dias "],
+				"ninos": ["3,5-7,5mg/kg/día (repartidos en 4 tomas)"]
+			},
+			"efectossecundarios": ["Colitis pseudomembranosa", "hepatotoxicidad"],
+			"embarazo": "Compatible (FDA: B)*",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Clindamicina “genérico” (150, 300mg)", "Dalacin (150, 300mg)"]
+				},
+				{
+					"titulo":"Pediátricos",
+					"pres": ["Clindamicina “genérico” (150mg)", "Dalacin 150mg"]
+				}
+			],
+			"nota": "*Profilaxis endocarditis bacteriana: 600mg 1 hora antes del procedimiento odontológico"
+		},
+		{
+			"titulo": "ESPIRAMICINA/METRONIDAZOL", 
+			"posologia": 
+			{
+				"adultos": ["Formulación: 750.000UI/125mg (2 comprimidos/8h/6-10días)"],
+				"ninos": ["- De 10 a 15 años: 3 comprimidos al día (corresponden a una dosis de 2,25 Millones de UI de espiramicina y 375 mg de metronidazol).", "- De 5-10 años: La forma farmacéutica de este medicamento no es apropiada para su administración a niños de esta franja de edad. Su uso queda a criterio del médico. La dosis habitual recomendada para este grupo de edad es de 2 comprimidos al día (corresponden a una dosis de 1,5 millones de UI de espiramicina y 250 mg de metronidazol)"]
+			},
+			"efectossecundarios": ["Reacciones de hipersensibilidad", "vómitos", "nauseas", "cefaleas", "disgeusia"],
+			"embarazo": "Compatible (FDA: B)* (evitar en el primer trimestre del embarazo)",
+			"presentacionescomerciales": [
+				{
+					"titulo":"",
+					"pres": ["Rhodogil (Rovifarma) "]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "AZITROMICINA", 
+			"posologia": 
+			{
+				"adultos": ["500mg/24h/3días"],
+				"ninos": ["10mg/kg/dosis única diaria/3 días"]
+			},
+			"efectossecundarios": ["Diarrea", "cefalea", "vómitos", "dolor abdominal", "náuseas", "taquicardia ventricular", "ictericia"],
+			"embarazo": "No hay datos suficientes (evitar o sopesar indicación durante el embarazo FDA: B*). Evitar durante la lactancia",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Azitromicina “genérico” (500mg)", "Arato EFG (500mg)", "Zitromax (500mg)"]
+				},
+				{
+					"titulo":"Pediátricos",
+					"pres": ["Azitromicina “genérico” (suspensión) (200mg/5ml)", "Zitromax (suspensión) (200mg/5ml)"]
+				}
+			],
+			"nota": ""
+		},
+		{
+			"titulo": "CIPROFLOXACINO", 
+			"posologia": 
+			{
+				"adultos": ["250-750mg/12h/5-10días"],
+				"ninos": []
+			},
+			"efectossecundarios": ["Diarrea", "cefalea", "vómitos", "dolor abdominal", "náuseas", "colitis pseudomembranosa", "hepatopatías", "mareo", "arritmias"],
+			"embarazo": "No hay datos suficientes (evitar o sopesar indicación durante el embarazo FDA: C*). Evitar durante la lactancia",
+			"presentacionescomerciales": [
+				{
+					"titulo":"Adultos",
+					"pres": ["Ciprofloxacino “genérico” (250, 500, 750mg)", "Baycip (500mg)", "Araxacima (500mg)", "Doriman (250, 500mg)"]
+				}
+			],
+			"nota": ""
 		}
 	]
 }

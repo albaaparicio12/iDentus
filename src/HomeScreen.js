@@ -1,35 +1,44 @@
-import React from 'react';
-import { StyleSheet,Button, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, View } from "react-native";
+import { Image, Button, VStack } from "native-base";
 
 class HomeScreen extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.title}>iDental</Text>
+	render() {
+		return (
+			<View style={styles.container}>
+				<VStack space={2} alignItems="center" justifyContent="center">
+					<Image
+						style={{ width: 300, height: 140 }}
+						source={require("./logoInicio.png")}
+						resizeMode={"contain"}
+					/>
 
-        <Button
-          title="Comenzar"
-          onPress={() =>
-            this.props.navigation.navigate('Menu')
-          }
-        />
-      </View>
-    );
-  }
+					<Button
+						size="lg"
+						colorScheme="blue"
+						variant="ghost"
+						onPress={() => this.props.navigation.navigate("Menu")}
+					>
+						Comenzar
+					</Button>
+				</VStack>
+			</View>
+		);
+	}
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 50,
-    textAlign: 'center',
-    marginVertical: 20,
-  },
+	container: {
+		flex: 1,
+		backgroundColor: "#fff",
+		alignItems: "center",
+		justifyContent: "center",
+	},
+	title: {
+		fontSize: 50,
+		textAlign: "center",
+		marginVertical: 20,
+	},
 });
 
 export default HomeScreen;

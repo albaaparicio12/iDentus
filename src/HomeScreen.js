@@ -9,7 +9,7 @@ class HomeScreen extends React.Component {
 				<VStack space={2} alignItems="center" justifyContent="center">
 					<Image
 						style={{ width: 300, height: 140 }}
-						source={require("./logoInicio.png")}
+						source={require("./icons/logoInicio.png")}
 						resizeMode={"contain"}
 					/>
 

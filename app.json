@@ -5,7 +5,18 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
-  },
-  "name": "iDental"
+    ],
+    "icon": "./src/icons/appstore.png",
+    "orientation": "portrait",
+    "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.iDental.app",
+    "icon": "./src/icons/appstore.png"
+    },
+
+    "android": {
+      "icon": "./src/icons/playstore.png",
+      "package": "com.iDental.app"
+    }
+  }
 }

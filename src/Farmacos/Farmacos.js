@@ -16,27 +16,11 @@ class Farmacos extends React.Component {
 				<VStack space={7} alignItems="center" justifyContent="center">
 					<Button
 						_text={{
-							fontSize: 18,
+							fontSize: 20,
 						}}
 						size="lg"
 						colorScheme="blue"
-						variant="subtle"
-						onPress={() =>
-							this.props.navigation.navigate("Antibioticos", {
-								data: require("./antibioticos.json"),
-								clase: "farmacos",
-							})
-						}
-					>
-						Antibióticos
-					</Button>
-					<Button
-						_text={{
-							fontSize: 18,
-						}}
-						size="lg"
-						colorScheme="blue"
-						variant="subtle"
+						variant="outline"
 						onPress={() =>
 							this.props.navigation.navigate("Analgesicos", {
 								data: require("./analgesicos.json"),
@@ -48,11 +32,39 @@ class Farmacos extends React.Component {
 					</Button>
 					<Button
 						_text={{
-							fontSize: 18,
+							fontSize: 20,
 						}}
 						size="lg"
 						colorScheme="blue"
-						variant="subtle"
+						variant="outline"
+						onPress={() =>
+							this.props.navigation.navigate("Antibioticos", {
+								data: require("./antibioticos.json"),
+								clase: "farmacos",
+							})
+						}
+					>
+						Antibióticos
+					</Button>
+
+					<Button
+						_text={{
+							fontSize: 20,
+						}}
+						size="lg"
+						colorScheme="blue"
+						variant="outline"
+						onPress={() => this.props.navigation.navigate("FDA")}
+					>
+						Categorías farmacológicas (FDA)
+					</Button>
+					<Button
+						_text={{
+							fontSize: 20,
+						}}
+						size="lg"
+						colorScheme="blue"
+						variant="outline"
 						onPress={() =>
 							this.props.navigation.navigate("Corticoides", {
 								data: require("./corticoides.json"),
@@ -64,34 +76,23 @@ class Farmacos extends React.Component {
 					</Button>
 					<Button
 						_text={{
-							fontSize: 18,
+							fontSize: 20,
 						}}
 						size="lg"
 						colorScheme="blue"
-						variant="subtle"
+						variant="outline"
 						onPress={() => this.props.navigation.navigate("Espectro")}
 					>
 						Espectro antibióticos
 					</Button>
-					<Button
-						_text={{
-							fontSize: 18,
-						}}
-						size="lg"
-						colorScheme="blue"
-						variant="subtle"
-						onPress={() => this.props.navigation.navigate("FDA")}
-					>
-						Categorías farmacológicas (FDA)
-					</Button>
 
 					<Button
 						_text={{
-							fontSize: 18,
+							fontSize: 20,
 						}}
 						size="lg"
 						colorScheme="blue"
-						variant="subtle"
+						variant="outline"
 						isDisabled
 						onPress={() => this.props.navigation.navigate("Anestesicos")}
 					>
@@ -99,11 +100,11 @@ class Farmacos extends React.Component {
 					</Button>
 					<Button
 						_text={{
-							fontSize: 18,
+							fontSize: 20,
 						}}
 						size="lg"
 						colorScheme="blue"
-						variant="subtle"
+						variant="outline"
 						isDisabled
 						onPress={() => this.props.navigation.navigate("Otros")}
 					>
@@ -118,7 +119,7 @@ class Farmacos extends React.Component {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: "#fff",
+		backgroundColor: "#D7F7FF",
 		alignItems: "center",
 		justifyContent: "center",
 	},

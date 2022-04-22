@@ -46,7 +46,7 @@ class ListaItems extends React.Component {
 		});
 
 		return (
-			<View>
+			<View style={styles.container}>
 				<SearchBar
 					placeholder="Escribe aquí..."
 					value={this.state.searchValue}
@@ -89,9 +89,7 @@ class ListaItems extends React.Component {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: "#fff",
-		alignItems: "center",
-		justifyContent: "center",
+		backgroundColor: "#D7F7FF",
 	},
 	title: {
 		fontSize: 35,

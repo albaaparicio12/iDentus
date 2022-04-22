@@ -18,7 +18,11 @@ class MainScreen extends React.Component {
 										color="#FFB250"
 									/>
 								}
+								w="60%"
 								colorScheme="blue"
+								_text={{
+									fontSize: 25,
+								}}
 								size="lg"
 								variant="outline"
 								onPress={() => this.props.navigation.navigate("Farmacos")}
@@ -34,7 +38,11 @@ class MainScreen extends React.Component {
 									<MaterialIcons name="coronavirus" size={40} color="#FFB250" />
 								}
 								colorScheme="blue"
+								_text={{
+									fontSize: 25,
+								}}
 								size="lg"
+								w="60%"
 								variant="outline"
 								onPress={() =>
 									this.props.navigation.navigate("Urgencias", {
@@ -57,7 +65,11 @@ class MainScreen extends React.Component {
 										color="#FFB250"
 									/>
 								}
+								_text={{
+									fontSize: 25,
+								}}
 								size="lg"
+								w="60%"
 								colorScheme="blue"
 								variant="outline"
 								isDisabled
@@ -76,7 +88,7 @@ class MainScreen extends React.Component {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: "#fff",
+		backgroundColor: "#D7F7FF",
 		alignItems: "center",
 		justifyContent: "center",
 	},
@@ -86,11 +98,7 @@ const styles = StyleSheet.create({
 		marginVertical: 20,
 	},
 	botones: {
-		flex: 1,
-		justifyContent: "space-between",
-		backgroundColor: "#fff",
-		padding: 100,
-		margin: 20,
+		fontSize: 20,
 	},
 });
 
